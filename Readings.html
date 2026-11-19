@@ -9,7 +9,7 @@
 <style>
     body {
         background-color: #F5F0E8;
-        color: #252329;
+        color: #38323A;
         font-family: Arial, sans-serif;
         line-height: 1.7;
         margin: 40px auto;
@@ -47,6 +47,36 @@
     details p {
         line-height: 1.8;
     }
+    
+summary h2 {
+    transition: color 0.3s ease;
+}
+
+summary:hover h2 {
+    color: #A52A3A;
+}
+
+summary:focus-visible h2 {
+    color: #A52A3A;
+}
+
+summary h2 {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+summary:hover h2 {
+    transform: translateX(6px);
+}
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #A52A3A;
+}
+    details p {
+    margin-bottom: 22px;
+}
 </style>
 </head>
 <body>
